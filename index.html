@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="title" id="section-title">
+                <h1>select your choose::</h1>
+            </div>
+
+            <div class="images-list">
+                <img src="images/paper.png" alt="paper" class="img-item">
+                <img src="images/rock.png" alt="rock" class="img-item">
+                <img src="images/scissors.png" alt="scissors" class="img-item">
+            </div>
+            <div>
+                <h1 id="cpu-choose">cpu choosed:</h1>
+            </div>
+
+            <div class="images-list">
+                <img src="images/paper.png" alt="paper" class="cpu-img hidden">
+                <img src="images/rock.png" alt="rock" class="cpu-img hidden">
+                <img src="images/scissors.png" alt="scissors" class="cpu-img hidden">
+            </div>          
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-title">
+                <h1>points</h1>
+            </div>
+            <div class="results">
+                <div class="user-result">
+                    <h2>user</h2>
+                    <h3 id="user-point">0</h3>
+                </div>
+                <div class="cpu-result">
+                    <h2>cpu</h2>
+                    <h3 id="cpu-point">0</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
